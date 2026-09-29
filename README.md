@@ -1,4 +1,4 @@
-# LumaRT — Real-Time Path Tracer
+# LumaPT — Real-Time Path Tracer
 
 > A CPU path tracer built in C++ on the [Walnut](https://github.com/StudioCherno/Walnut) application framework, using Vulkan for presentation and ImGui for interactive controls.
 
