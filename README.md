@@ -9,7 +9,7 @@
 
 ## Overview
 
-LumaRT is an interactive **path tracer** that simulates physically-based light transport by shooting rays backwards from the camera into the scene. Each ray bounces off surfaces multiple times, accumulating color and energy loss at every hit — mimicking how real light behaves. The result is presented through a Vulkan-backed viewport and progressively refines over time for noise-free images.
+LumaPT is an interactive **path tracer** that simulates physically-based light transport by shooting rays backwards from the camera into the scene. Each ray bounces off surfaces multiple times, accumulating color and energy loss at every hit — mimicking how real light behaves. The result is presented through a Vulkan-backed viewport and progressively refines over time for noise-free images.
 
 The project uses Walnut as an external submodule, which provides the Vulkan renderer, windowing, and ImGui integration so the codebase stays focused on path tracing logic.
 
@@ -44,7 +44,7 @@ The project uses Walnut as an external submodule, which provides the Vulkan rend
 ## Repository Layout
 
 ```
-LumaRT/
+LumaPT/
 ├── RayTracer/          # Main application source
 │   └── src/
 │       ├── WalnutApp.cpp   # Entry point, UI, scene setup
@@ -72,7 +72,7 @@ LumaRT/
 
 ### 1. Clone with submodules
 ```bash
-git clone --recursive https://github.com/MaitreyaKokane/LumaRT.git
+git clone --recursive https://github.com/MaitreyaKokane/LumaPT.git
 ```
 
 If you already cloned without `--recursive`:
